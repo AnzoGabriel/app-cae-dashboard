@@ -31,7 +31,8 @@
         @yield('content')
     </main>
 
-    <script src="{{ asset('apexcharts/apexcharts.js') }}"></script>
+    <script src="{{ asset('javascripts/apexcharts.js') }}"></script>
+    <script src="{{ asset('javascripts/simple-datatables.js') }}"></script>
     @stack('scripts')
 </body>
 

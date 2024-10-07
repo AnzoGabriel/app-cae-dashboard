@@ -38,7 +38,7 @@ class AuthPostRequest extends FormRequest
             'n_matricula.numeric' => 'O Nº de Matrícula deve conter somente números.',
             'n_matricula.min' => 'O Nº de Matrícula deve conter 14 caracteres.',
             'password.required' => 'A senha é obrigatória.',
-            'password' => 'A senha deve ter pelo menos 4 caracteres.',
+            'password.min' => 'A senha deve ter pelo menos 4 caracteres.',
         ];
     }
 }

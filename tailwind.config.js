@@ -9,6 +9,7 @@ export default {
         require("@tailwindcss/forms"),
         require('flowbite/plugin')({
             charts: true,
+            datatables: true,
         }),
     ],
 };
